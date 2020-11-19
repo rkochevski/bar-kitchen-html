@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <!-- Header Navigation Bar -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark" id="header-nav">
+            <div class="container">
+                <div class="logo-img-col float-left d-none d-md-block" id="logo-wrapper">
+                    <a href="index.html">
+                        <div alt="Logo" id="logo-img"></div>
+                    </a>
+                </div>
+                <div class="brand-info-col" id="brand-wrapper">
+                    <div class="row">
+                        <div class="navbar-brand">
+                            <a href="index.html">
+                                <h1>DISTRIKT Bar & Kitchen</h1>    
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row navbar-location-phone d-none d-sm-flex">
+                        <div class="navbar-location">
+                            <a href="https://www.google.com/maps/place/District+Bar+%26+Kitchen/@41.9961291,21.430469,19.75z/data=!4m5!3m4!1s0x135415b4874fe36f:0xa3eac416fbbba096!8m2!3d41.9962951!4d21.4305288" target="_blank">
+                                <span><img src="/images/glyphs/map-address-filled-white-50.png" alt="map-marker-icon"/></span>
+                                <span class="d-none d-md-inline-block">Ploshtad Makedonija 7, Skopje 1000 Macedonia</span>
+                            </a>
+                        </div>
+                        <div class="navbar-phone">
+                            <a href="tel:0038925102510">
+                                <span><img src="/images/glyphs/phone-filled-white-50.png" alt="phone-icon"/></span>
+                                <span class="d-none d-md-inline-block">+389 2 510 2510</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <button class="navbar-toggler float-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav navbar-right ml-auto" id="nav-list">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="menu.html">Menu<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="reservation.html">Reservation</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.kliknijadi.mk/mk/restaurant/Distrikt-Bar-i-Kitchen" target="_blank">Order</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Follow Us</a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="https://www.facebook.com/DistriktBarKitchen" target="_blank">
+                                    <span><img src="/images/glyphs/facebook.svg" alt="facebook-icon" height="16" width="16"/></span>
+                                    <span>Facebook</span>
+                                </a>
+                                <a class="dropdown-item" href="https://www.instagram.com/distriktbarkitchen/" target="_blank">
+                                    <span><img src="/images/glyphs/instagram.svg" alt="instagram-icon" height="16" width="16"/></span>
+                                    <span>Instagram</span>
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <div id="main-content" class="container">
+        <h2 id="menu-title" class="text-center">Menu</h2>
+        <div class="row">
+            <section class="col-xs-12 col-sm-4 col-lg-3 menu-section" id="breakfast-section">
+                <span>Breakfast</span>
+                <p>Classic Omlette</p>
+                <p>Vegetable Omlette</p>
+                <hr class="d-block d-sm-none">
+            </section>
+            <section class="col-xs-12 col-sm-4 col-lg-3 menu-section" id="sandwiches-section">
+                <span>Sandwiches</span>
+                <p>Distrikt Burger</p>
+                <p>Pork Burger</p>
+                <p>Mozzarella Panini</p>
+                <hr class="d-block d-sm-none">
+            </section>
+            <section class="col-xs-12 col-sm-4 col-lg-3 menu-section" id="salad-section">
+                <span>Salad</span>
+                <p>Pan Seared Salmon salad</p>
+                <p>Grilled Vegetable salad</p>
+                <p>Caesar salad</p>
+                <hr class="d-block d-sm-none">
+            </section>
+            <section class="col-xs-12 col-sm-4 col-lg-3 menu-section" id="soup-section">
+                <span>Soup</span>
+                <p>Chilled Tomato Gazpacho</p>
+                <p>Minestrone soup</p>
+                <hr class="d-block d-sm-none">
+            </section>
+            <section class="col-xs-12 col-sm-4 col-lg-3 menu-section" id="risotto-section">
+                <span>Risotto</span>
+                <p>Mushroom risotto</p>
+                <p>Risotto Milanese</p>
+                <hr class="d-block d-sm-none">
+            </section>
+            <section class="col-xs-12 col-sm-4 col-lg-3 menu-section" id="pasta-section">
+                <span>Pasta</span>
+                <p>Spaghetti Pomodore</p>
+                <p>Gnocchi</p>
+                <p>Spaghetti Bolognese</p>
+                <hr class="d-block d-sm-none">
+            </section>
+            <section class="col-xs-12 col-sm-4 col-lg-3 menu-section" id="pizza-section">
+                <span>Pizza</span>
+                <p>Quatro formaggi pizza</p>
+                <p>Pepperoni pizza</p>
+                <p>Capricciosa pizza</p>
+                <hr class="d-block d-sm-none">
+            </section>
+            <section class="col-xs-12 col-sm-4 col-lg-3 menu-section" id="meat-section">
+                <span>Meat/Fish</span>
+                <p>T-bone steak</p>
+                <p>Roasted Salmon with Gnocchi</p>
+                <p>Grilled half chicken</p>
+            </section>
+        </div>
+    </div> <!-- Main Content End -->
+
+    <footer class="card-footer">
+        <div class="container">
+            <div class="row">
+                <section id="hours-section" class="col-sm-4">
+                    <span>Hours:</span><br>
+                    Sun - Tue: 07:00 - 24:00<br>
+                    Fri - Sat: 07:00 - 01:00<br>
+                    <hr class="d-block d-sm-none">
+                </section>
+                <section id="contact-section" class="col-sm-4">
+                    <span>Contact:</span><br>
+                    Plostad Makedonija 7, 1000 Skopje Macedonia<br>
+                    +389 71 238 522<br>
+                    info@distrikt.mk<br>
+                    <hr class="d-block d-sm-none">
+                </section>
+                <section id="about-section" class="col-sm-4">
+                    <span>About:</span>
+                    <p>Distrikt Bar & Kitchen will offer you out of ordinary dining experience with its open kitchen design, delicious menu and friendly service.</p>
+                    <p>Distrikt Bar & Kitchen is located on the lobby floor of Skopje Marriott Hotel serving breakfast, lunch and dinner.</p>
+                </section>
+            </div>
+            <div class="text-center">&copy; 2020 DISTRIKT Bar & Kitchen</div>
+        </div>
+    </footer>
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+</html>
